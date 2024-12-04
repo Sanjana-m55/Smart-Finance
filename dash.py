@@ -121,7 +121,7 @@ def create_dashboard(data):
 
 # Main Application
 def main():
-    add_bg_from_local(r"https://images.squarespace-cdn.com/content/v1/5daf8b1ab45413657badbc03/1617824721728-KBQSQD48DVSF3KYA8ZX2/Picture1.png")
+    add_bg_from_local(r"")
 
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Data Analytics", "Recommendations"])
