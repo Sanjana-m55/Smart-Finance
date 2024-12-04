@@ -121,7 +121,7 @@ def create_dashboard(data):
 
 # Main Application
 def main():
-    add_bg_from_local(r"C:\Users\sanjana mahantesh\OneDrive\Desktop\smartfinance\Money_Map-removebg-preview.png")
+    add_bg_from_local(r"https://ibb.co/5Gd2747")
 
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Data Analytics", "Recommendations"])
