@@ -121,7 +121,7 @@ def create_dashboard(data):
 
 # Main Application
 def main():
-    add_bg_from_local(r"")
+    
 
     st.sidebar.title("Navigation")
     page = st.sidebar.radio("Go to", ["Data Analytics", "Recommendations"])
